@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\dtos\\assetverificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\dtos\\assetverificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\dtos\\assetregistrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\dtos\\assetregistrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssetVerificationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T09:04:26.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssetsController.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AssetsController.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Controllers\\AssetsController.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AssetsController.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Controllers\\AssetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T08:47:37.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAawFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T10:30:24.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T10:29:33.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Controllers\\LocationsController.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Controllers\\LocationsController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAzwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T10:13:22.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Program.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T18:11:22.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetRegistrationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T08:45:00.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\User.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T08:25:36.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T18:10:54.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\appsettings.json",
+              "RelativeToolTip": "InventoryTrackingAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-18T18:08:12.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Location.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T08:25:55.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Asset.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\Asset.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Asset.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Models\\Asset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T08:26:12.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\AuditLog.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T08:28:38.206Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
