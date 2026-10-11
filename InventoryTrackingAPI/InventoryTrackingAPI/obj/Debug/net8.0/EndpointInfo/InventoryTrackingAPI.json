@@ -125,44 +125,6 @@
           }
         }
       }
-    },
-    "/api/Locations": {
-      "get": {
-        "tags": [
-          "Locations"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Location"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Location"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Location"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {
@@ -205,24 +167,6 @@
             "nullable": true
           },
           "specifications": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Location": {
-        "type": "object",
-        "properties": {
-          "locationId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "labName": {
-            "type": "string",
-            "nullable": true
-          },
-          "buildingBlock": {
             "type": "string",
             "nullable": true
           }

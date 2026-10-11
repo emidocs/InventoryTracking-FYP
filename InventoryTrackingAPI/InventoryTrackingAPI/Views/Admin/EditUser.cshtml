@@ -1,0 +1,56 @@
+﻿@model InventoryTrackingAPI.Models.User
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<div style="font-family: sans-serif; padding: 20px;">
+    <!-- UNIVERSAL NAVIGATION MENU -->
+    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px; align-items: center; flex-wrap: nowrap; overflow-x: auto;">
+        <a href="/Admin/Dashboard" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">📊 Audit Logs</a>
+        <a href="/Admin/Inventory" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">📦 Master Inventory</a>
+        <a href="/Admin/AddAsset" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">+ Register New Asset</a>
+        <a href="/Admin/RegisterUser" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">👤 Add User</a>
+        <a href="/Admin/UserDirectory" style="text-decoration: none; font-weight: bold; color: #007bff; white-space: nowrap;">👥 User Directory</a>
+
+        <span style="margin-left: auto; font-style: italic; color: #555; white-space: nowrap;">Welcome, @User.Identity?.Name!</span>
+        <a href="/Admin/Logout" style="color: red; margin-left: 15px; text-decoration: none; font-weight: bold; white-space: nowrap;">Logout</a>
+    </div>
+
+    <h2>Edit User Account</h2>
+
+    <!-- STYLED FORM CONTAINER -->
+    <div style="max-width: 600px; background-color: #ffffff; padding: 25px; border-radius: 8px; border: 1px solid #ddd; margin-top: 20px;">
+        <form asp-action="EditUser" method="post">
+            <!-- CRITICAL: Hidden fields to preserve ID and the existing hashed password -->
+            <input type="hidden" asp-for="UserId" />
+            <input type="hidden" asp-for="PasswordHash" />
+
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">Username</label>
+                <input asp-for="Username" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" />
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">System Role</label>
+                <select asp-for="Role" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: white;">
+                    <option value="Technician">Technician</option>
+                    <option value="Admin">Admin</option>
+                </select>
+            </div>
+
+            <div style="margin-bottom: 25px;">
+                <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">Account Status</label>
+                <select asp-for="IsActive" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: white;">
+                    <option value="true">Active (Can Login)</option>
+                    <option value="false">Disabled (Locked Out)</option>
+                </select>
+            </div>
+
+            <div style="display: flex; gap: 10px;">
+                <button type="submit" style="padding: 10px 20px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">Save Changes</button>
+                <a href="/Admin/UserDirectory" style="padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; text-align: center;">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

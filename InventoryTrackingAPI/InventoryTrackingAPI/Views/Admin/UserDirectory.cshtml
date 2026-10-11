@@ -47,6 +47,10 @@
                     <td style="padding: 10px; border: 1px solid #ddd;">@user.Role</td>
                     <td style="padding: 10px; border: 1px solid #ddd; color: @statusColor; font-weight: bold;">@statusText</td>
                     <td style="padding: 10px; border: 1px solid #ddd;">
+
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+
+                        <a href="/Admin/EditUser/@user.UserId" style="color: #ff9900; text-decoration: none; font-weight: bold; margin-right: 10px;">Edit</a>
                         @if (user.Username == currentLoggedInUser)
                         {
                             <span style="color: gray; font-style: italic;">Cannot modify self</span>

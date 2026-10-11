@@ -1,51 +1,48 @@
-﻿@{
+﻿@model InventoryTrackingAPI.Models.User
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
     ViewData["Title"] = "Provision New User";
 }
 
-<div style="font-family: sans-serif; padding: 20px; max-width: 600px;">
+<div style="font-family: sans-serif; padding: 20px;">
+    <!-- UNIVERSAL NAVIGATION MENU -->
+    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px; align-items: center; flex-wrap: nowrap; overflow-x: auto;">
+        <a href="/Admin/Dashboard" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">📊 Audit Logs</a>
+        <a href="/Admin/Inventory" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">📦 Master Inventory</a>
+        <a href="/Admin/AddAsset" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">+ Register New Asset</a>
+        <a href="/Admin/RegisterUser" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">👤 Add User</a>
+        <a href="/Admin/UserDirectory" style="text-decoration: none; font-weight: bold; color: #007bff; white-space: nowrap;">👥 User Directory</a>
 
-    <<!-- UNIVERSAL NAVIGATION MENU -->
-    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px;">
-        <a href="/Admin/Dashboard" style="text-decoration: none; font-weight: bold; color: #333;">📊 Audit Logs</a>
-        <a href="/Admin/Inventory" style="text-decoration: none; font-weight: bold; color: #333;">📦 Master Inventory</a>
-        <a href="/Admin/AddAsset" style="text-decoration: none; font-weight: bold; color: #333;">+ Register New Asset</a>
-        <a href="/Admin/RegisterUser" style="text-decoration: none; font-weight: bold; color: #333;">👤 Add User</a>
-        <a href="/Admin/UserDirectory" style="text-decoration: none; font-weight: bold; color: #007bff;">👥 User Directory</a>
-        <!-- THE WELCOME MESSAGE -->
-        <span style="margin-left: auto; font-style: italic; color: #555;">Welcome, @User.Identity?.Name!</span>
-        <a href="/Admin/Logout" style="color: red; margin-left: auto; text-decoration: none; font-weight: bold;">Logout</a>
+        <span style="margin-left: auto; font-style: italic; color: #555; white-space: nowrap;">Welcome, @User.Identity?.Name!</span>
+        <a href="/Admin/Logout" style="color: red; margin-left: 15px; text-decoration: none; font-weight: bold; white-space: nowrap;">Logout</a>
     </div>
 
     <h2>Provision New System User</h2>
-    <p>Create a secure account for a new employee. Passwords are automatically salted and hashed.</p>
+    <p style="color: #555; margin-bottom: 20px;">Create a secure account for a new employee. Passwords are automatically salted and hashed.</p>
 
-    @if (ViewBag.Error != null)
-    {
-        <p style="color: red; font-weight: bold;">@ViewBag.Error</p>
-    }
+    <!-- STYLED FORM CONTAINER -->
+    <div style="max-width: 600px; background-color: #ffffff; padding: 25px; border-radius: 8px; border: 1px solid #ddd;">
+        <form asp-action="RegisterUser" method="post">
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">Employee Username:</label>
+                <input asp-for="Username" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" required />
+            </div>
 
-    <form method="post" action="/Admin/RegisterUser" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">Temporary Password:</label>
+                <!-- Using name="Password" explicitly in case your backend accepts a raw string for hashing -->
+                <input type="password" name="Password" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" required />
+            </div>
 
-        <div>
-            <label style="font-weight: bold;">Employee Username:</label><br />
-            <input type="text" name="username" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
-        </div>
+            <div style="margin-bottom: 25px;">
+                <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">System Role:</label>
+                <select asp-for="Role" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: white;">
+                    <option value="Technician">Field Technician (Mobile App Access)</option>
+                    <option value="Admin">Administrator (Web Access)</option>
+                </select>
+            </div>
 
-        <div>
-            <label style="font-weight: bold;">Temporary Password:</label><br />
-            <input type="password" name="password" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
-        </div>
-
-        <div>
-            <label style="font-weight: bold;">System Role:</label><br />
-            <select name="role" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;">
-                <option value="Technician">Field Technician (Mobile App Access)</option>
-                <option value="Admin">Administrator (Dashboard Access)</option>
-            </select>
-        </div>
-
-        <button type="submit" style="padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; margin-top: 10px;">
-            Provision User
-        </button>
-    </form>
+            <button type="submit" style="width: 100%; padding: 12px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 16px;">Provision User</button>
+        </form>
+    </div>
 </div>

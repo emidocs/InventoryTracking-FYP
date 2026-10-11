@@ -9,11 +9,23 @@ import androidx.appcompat.app.AppCompatActivity
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import android.content.Context
+import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val sharedPref = getSharedPreferences("InventoryPrefs", Context.MODE_PRIVATE)
+        val savedToken = sharedPref.getString("JWT_TOKEN", null)
+
+        if (savedToken != null) {
+            // Token exists! Boot them straight to the scanner.
+            val intent = Intent(this, ScannerActivity::class.java)
+            startActivity(intent)
+            finish() // This kills the MainActivity so they can't hit the back button
+            return // Stops the rest of the login screen UI from loading
+        }
         setContentView(R.layout.activity_main)
 
         val etUsername = findViewById<EditText>(R.id.etUsername)
@@ -42,12 +54,28 @@ class MainActivity : AppCompatActivity() {
                     val token = response.body()!!.token
                     val role = response.body()!!.role
 
-                    Toast.makeText(this@MainActivity, "Welcome $role!", Toast.LENGTH_SHORT).show()
-                    Log.d("AUTH", "JWT Token: $token")
+                    // 1. Save the token to physical storage
+                    val sharedPref = getSharedPreferences("InventoryPrefs", Context.MODE_PRIVATE)
+                    sharedPref.edit()
+                        .putString("JWT_TOKEN", token)
+                        .putString("USERNAME", request.username) // Adjust this variable to match what they typed!
+                        .apply()
 
-                    // Next step: Save this token and navigate to the Scanner screen!
+                    Toast.makeText(this@MainActivity, "Welcome $role!", Toast.LENGTH_SHORT).show()
+
+                    // 2. Navigate to the Scanner Activity
+                    val intent = android.content.Intent(this@MainActivity, ScannerActivity::class.java)
+                    startActivity(intent)
+                    finish()
                 } else {
-                    Toast.makeText(this@MainActivity, "Invalid credentials", Toast.LENGTH_SHORT).show()
+                    // THIS IS THE NEW DEBUGGING LOGIC
+                    val errorCode = response.code()
+                    val errorString = response.errorBody()?.string() ?: "Unknown Server Error"
+
+                    Log.e("API_DEBUG", "Failed with code: $errorCode")
+                    Log.e("API_DEBUG", "Server message: $errorString")
+
+                    Toast.makeText(this@MainActivity, "Error $errorCode: Check Logcat", Toast.LENGTH_LONG).show()
                 }
             }
 

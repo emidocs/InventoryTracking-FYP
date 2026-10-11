@@ -1,58 +1,114 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\dtos\\assetverificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\dtos\\assetverificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\dtos\\assetregistrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\dtos\\assetregistrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\controllers\\techniciancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\controllers\\techniciancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\source\\repos\\inventorytrackingapi\\inventorytrackingapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\technician\\portal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\technician\\portal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\admin\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\admin\\inventory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\admin\\userdirectory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\admin\\userdirectory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\admin\\editasset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\admin\\editasset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\admin\\registeruser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\admin\\registeruser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\admin\\addasset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\admin\\addasset.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\dtos\\assetregistrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\dtos\\assetregistrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emide\\AppData\\Local\\Temp\\igjdfbh0..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emide\\AppData\\Local\\Temp\\yexo3fol..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\views\\admin\\generateqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\views\\admin\\generateqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\emide\\AppData\\Local\\Temp\\eri3qi1m..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/EMI_SQLEXPRESS/InventoryDB/True/SqlTable/dbo.Assets.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|c:\\users\\emide\\onedrive\\documents\\desktop\\18\\uptm\\sem 8\\fyp-master\\inventorytrackingapi\\inventorytrackingapi\\dtos\\assetverificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161F9099-3AC6-4345-94D9-00D16383D4EF}|InventoryTrackingAPI\\InventoryTrackingAPI.csproj|solutionrelative:inventorytrackingapi\\dtos\\assetverificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,176 +118,340 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AssetVerificationRequest.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\AuditLog.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T09:04:26.168Z",
+              "WhenOpened": "2026-08-19T08:28:38.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Inventory.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\Inventory.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Admin\\Inventory.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\Inventory.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Admin\\Inventory.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-30T06:03:56.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADcBAAAAAAAAAAAiwFEBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T18:15:12.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TechnicianController.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\TechnicianController.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Controllers\\TechnicianController.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\TechnicianController.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Controllers\\TechnicianController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T13:24:45.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AssetsController.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AssetsController.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AssetsController.cs",
               "RelativeDocumentMoniker": "InventoryTrackingAPI\\Controllers\\AssetsController.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AssetsController.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AssetsController.cs",
               "RelativeToolTip": "InventoryTrackingAPI\\Controllers\\AssetsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwAcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv1AAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-27T08:47:37.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "InventoryTrackingAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "InventoryTrackingAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAawFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-19T10:30:24.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T10:29:33.799Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-30T03:56:30.147Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LocationsController.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\LocationsController.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Controllers\\LocationsController.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Controllers\\LocationsController.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\Controllers\\LocationsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAzwCIAAAABAAAAAAAAAA==",
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Asset.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\Asset.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Asset.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Models\\Asset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T10:13:22.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Program.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Program.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T18:11:22.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AssetRegistrationRequest.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T08:45:00.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\User.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T08:25:36.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T18:10:54.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-19T08:26:12.209Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\appsettings.json",
-              "RelativeToolTip": "InventoryTrackingAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-18T18:08:12.066Z",
-              "EditorCaption": ""
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\User.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T08:25:36.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Location.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\Location.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Location.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\Models\\Location.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "AddAsset.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\AddAsset.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Admin\\AddAsset.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\AddAsset.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Admin\\AddAsset.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-30T04:33:07.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Program.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T08:25:55.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T18:11:22.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Portal.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Technician\\Portal.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Technician\\Portal.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Technician\\Portal.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Technician\\Portal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-31T13:25:30.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\RegisterUser.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Admin\\RegisterUser.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\RegisterUser.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Admin\\RegisterUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-31T10:32:14.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditAsset.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\EditAsset.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Admin\\EditAsset.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\EditAsset.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Admin\\EditAsset.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-13T07:54:43.023Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Asset.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Asset.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\Asset.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\Asset.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\Models\\Asset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T08:26:12.209Z",
-              "EditorCaption": ""
+              "Title": "UserDirectory.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\UserDirectory.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Admin\\UserDirectory.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\UserDirectory.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Admin\\UserDirectory.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-31T10:38:40.45Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "AuditLog.cs",
-              "DocumentMoniker": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\AuditLog.cs",
-              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Models\\AuditLog.cs",
-              "ToolTip": "C:\\Users\\emide\\source\\repos\\InventoryTrackingAPI\\InventoryTrackingAPI\\Models\\AuditLog.cs",
-              "RelativeToolTip": "InventoryTrackingAPI\\Models\\AuditLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-31T09:53:20.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-13T08:14:50.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AssetRegistrationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\DTOs\\AssetRegistrationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T08:28:38.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-27T08:45:00.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T10:29:33.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "igjdfbh0..sql",
+              "DocumentMoniker": "C:\\Users\\emide\\AppData\\Local\\Temp\\igjdfbh0..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\igjdfbh0..sql",
+              "ToolTip": "C:\\Users\\emide\\AppData\\Local\\Temp\\igjdfbh0..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\igjdfbh0..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-12T15:09:50.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "yexo3fol..sql",
+              "DocumentMoniker": "C:\\Users\\emide\\AppData\\Local\\Temp\\yexo3fol..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\yexo3fol..sql",
+              "ToolTip": "C:\\Users\\emide\\AppData\\Local\\Temp\\yexo3fol..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\yexo3fol..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-10T01:32:30.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\appsettings.json",
+              "RelativeToolTip": "InventoryTrackingAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-18T18:08:12.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GenerateQR.cshtml",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\GenerateQR.cshtml",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Views\\Admin\\GenerateQR.cshtml",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Views\\Admin\\GenerateQR.cshtml",
+              "RelativeToolTip": "InventoryTrackingAPI\\Views\\Admin\\GenerateQR.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T18:18:51.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "InventoryTrackingAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-27T17:48:36.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "eri3qi1m..sql",
+              "DocumentMoniker": "C:\\Users\\emide\\AppData\\Local\\Temp\\eri3qi1m..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\eri3qi1m..sql",
+              "ToolTip": "C:\\Users\\emide\\AppData\\Local\\Temp\\eri3qi1m..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\eri3qi1m..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-08-31T10:43:51.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "dbo.Assets.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/EMI_SQLEXPRESS/InventoryDB/True/SqlTable/dbo.Assets.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/EMI_SQLEXPRESS/InventoryDB/True/SqlTable/dbo.Assets.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-08-30T05:47:36.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T18:10:54.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AssetVerificationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
+              "RelativeDocumentMoniker": "InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
+              "ToolTip": "C:\\Users\\emide\\OneDrive\\Documents\\Desktop\\18\\uptm\\sem 8\\FYP-master\\InventoryTrackingAPI\\InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
+              "RelativeToolTip": "InventoryTrackingAPI\\DTOs\\AssetVerificationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T09:04:26.168Z"
             }
           ]
         }

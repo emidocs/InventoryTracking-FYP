@@ -1,49 +1,44 @@
-﻿@{
+﻿@model InventoryTrackingAPI.Models.Asset
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
     ViewData["Title"] = "Register New Asset";
 }
 
-<div style="font-family: sans-serif; padding: 20px; max-width: 600px;">
-
+<div style="font-family: sans-serif; padding: 20px;">
     <!-- UNIVERSAL NAVIGATION MENU -->
-    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px;">
-        <a href="/Admin/Dashboard" style="text-decoration: none; font-weight: bold; color: #333;">📊 Audit Logs</a>
-        <a href="/Admin/Inventory" style="text-decoration: none; font-weight: bold; color: #333;">📦 Master Inventory</a>
-        <a href="/Admin/AddAsset" style="text-decoration: none; font-weight: bold; color: #333;">+ Register New Asset</a>
-        <a href="/Admin/RegisterUser" style="text-decoration: none; font-weight: bold; color: #333;">👤 Add User</a>
-        <a href="/Admin/UserDirectory" style="text-decoration: none; font-weight: bold; color: #007bff;">👥 User Directory</a>
-        <!-- THE WELCOME MESSAGE -->
-        <span style="margin-left: auto; font-style: italic; color: #555;">Welcome, @User.Identity?.Name!</span>
-        <a href="/Admin/Logout" style="color: red; margin-left: auto; text-decoration: none; font-weight: bold;">Logout</a>
+    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px; align-items: center; flex-wrap: nowrap; overflow-x: auto;">
+        <a href="/Admin/Dashboard" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">📊 Audit Logs</a>
+        <a href="/Admin/Inventory" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">📦 Master Inventory</a>
+        <a href="/Admin/AddAsset" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">+ Register New Asset</a>
+        <a href="/Admin/RegisterUser" style="text-decoration: none; font-weight: bold; color: #333; white-space: nowrap;">👤 Add User</a>
+        <a href="/Admin/UserDirectory" style="text-decoration: none; font-weight: bold; color: #007bff; white-space: nowrap;">👥 User Directory</a>
+        
+        <span style="margin-left: auto; font-style: italic; color: #555; white-space: nowrap;">Welcome, @User.Identity?.Name!</span>
+        <a href="/Admin/Logout" style="color: red; margin-left: 15px; text-decoration: none; font-weight: bold; white-space: nowrap;">Logout</a>
     </div>
 
     <h2>Register New Hardware Asset</h2>
-    <p>Enter the component details below. A QR tag will be generated upon saving.</p>
+    <p style="color: #555; margin-bottom: 20px;">Enter the component details below. A QR tag will be generated upon saving.</p>
 
-    <form method="post" action="/Admin/AddAsset" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+    <!-- STYLED FORM CONTAINER -->
+    <div style="max-width: 600px; background-color: #ffffff; padding: 25px; border-radius: 8px; border: 1px solid #ddd;">
+        <form asp-action="AddAsset" method="post">
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">Category (e.g., RAM, GPU, Monitor):</label>
+                <input asp-for="Category" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" required />
+            </div>
 
-        <div>
-            <label style="font-weight: bold;">Category (e.g., RAM, GPU, Monitor):</label><br />
-            <input type="text" name="category" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
-        </div>
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">Manufacturer Serial Number (Barcode):</label>
+                <input asp-for="SerialNumber" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" required />
+            </div>
 
-        <div>
-            <label style="font-weight: bold;">Manufacturer Serial Number (Barcode):</label><br />
-            <input type="text" name="serialNumber" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
-        </div>
+            <div style="margin-bottom: 25px;">
+                <label style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">Hardware Specifications:</label>
+                <textarea asp-for="Specifications" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; min-height: 80px;" required></textarea>
+            </div>
 
-        <div>
-            <label style="font-weight: bold;">Hardware Specifications:</label><br />
-            <textarea name="specifications" rows="3" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;"></textarea>
-        </div>
-
-        <!-- NEW FIELD: Location ID -->
-        <div>
-            <label style="font-weight: bold;">Location ID (e.g., 1 for Server Room):</label><br />
-            <input type="number" name="locationId" value="1" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
-        </div>
-
-        <button type="submit" style="padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; margin-top: 10px;">
-            Register Asset & Generate Tag
-        </button>
-    </form>
+            <button type="submit" style="width: 100%; padding: 12px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; font-size: 16px;">Register Asset & Generate Tag</button>
+        </form>
+    </div>
 </div>

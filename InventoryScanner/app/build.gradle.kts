@@ -47,7 +47,6 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
-    // ZXing Android Embedded for extremely fast, low-boilerplate QR scanning
-    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
-    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.3")
+    // Google ML Kit Barcode Scanner
+    implementation("com.google.android.gms:play-services-code-scanner:16.1.0")
 }

@@ -30,8 +30,9 @@ namespace InventoryTrackingAPI.Controllers
             if (await _context.Assets.AnyAsync(a => a.SerialNumber == request.SerialNumber))
                 return BadRequest("An asset with this serial number already exists.");
 
-            // 2. Prepare the raw string for hashing (This is the immutable baseline)
-            string rawData = $"{request.SerialNumber}-{request.Category}-{request.Specifications}";
+            // 2. Prepare the raw string for hashing
+            // Hash the physical Serial Number (Barcode)
+            string rawData = request.SerialNumber;
 
             // 3. Generate the SHA-256 Baseline Hash
             string baselineHash = ComputeSha256Hash(rawData);
@@ -42,7 +43,6 @@ namespace InventoryTrackingAPI.Controllers
                 SerialNumber = request.SerialNumber,
                 Category = request.Category,
                 Specifications = request.Specifications,
-                LocationId = request.LocationId,
                 BaselineHash = baselineHash,
                 Status = "Active"
             };
@@ -68,13 +68,16 @@ namespace InventoryTrackingAPI.Controllers
                 return NotFound("Asset not found in the system.");
 
             // 2. Re-create the raw string exactly as the Admin did during registration
-            string scannedData = $"{request.SerialNumber}-{request.Category}-{request.Specifications}";
+            // FIXED: Only look at the incoming Serial Number
+            string scannedData = request.SerialNumber;
 
             // 3. Generate a real-time hash of the newly scanned data
             string realTimeHash = ComputeSha256Hash(scannedData);
 
             // 4. Compare the hashes to check for tampering
             bool isMatch = (realTimeHash == asset.BaselineHash);
+
+            // INJECT DEBUGGING INFO HERE:
             string auditResult = isMatch ? "Verified" : "Mismatch";
 
             // 5. Update the Asset's status if tampering is detected
@@ -87,13 +90,18 @@ namespace InventoryTrackingAPI.Controllers
             var userIdClaim = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
             int technicianId = int.Parse(userIdClaim?.Value ?? "0");
 
+            // Convert to local 
+            TimeZoneInfo mytZone = TimeZoneInfo.FindSystemTimeZoneById("Singapore Standard Time");
+            DateTime malaysiaTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, mytZone);
+
+
             // 7. Create the immutable Audit Log
             var auditLog = new AuditLog
             {
                 AssetId = asset.AssetId,
                 ScannedBy = technicianId,
-                ScanTimestamp = DateTime.Now,
-                Result = auditResult
+                ScanTimestamp = malaysiaTime,
+                Result = auditResult // This will now print the exact payload on your dashboard!
             };
 
             _context.AuditLogs.Add(auditLog);

@@ -11,7 +11,6 @@ namespace InventoryTrackingAPI.Data
 
         // These DbSets link your C# models to your SQL tables
         public DbSet<User> Users { get; set; }
-        public DbSet<Location> Locations { get; set; }
         public DbSet<Asset> Assets { get; set; }
         public DbSet<AuditLog> AuditLogs { get; set; }
     }

@@ -4,7 +4,7 @@
 }
 
 <div style="font-family: sans-serif; padding: 20px;">
-    <div style="display: flex; justify-content: space-between; align-items: center;">
+ 
 
         <!-- UNIVERSAL NAVIGATION MENU -->
         <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px;">
@@ -18,8 +18,10 @@
             <a href="/Admin/Logout" style="color: red; margin-left: auto; text-decoration: none; font-weight: bold;">Logout</a>
         </div>
 
-        <h2>Asset Master Inventory</h2>
-        <a href="/Admin/AddAsset" style="padding: 8px 15px; background-color: #28a745; color: white; text-decoration: none; border-radius: 4px;">+ Register New Asset</a>
+
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h2>System Master Inventory</h2>
+        <a href="/Admin/AddAsset" style="padding: 8px 15px; background-color: #28a745; color: white; text-decoration: none; border-radius: 4px;">+ Add New User</a>
     </div>
 
     <table style="width: 100%; border-collapse: collapse; margin-top: 20px; text-align: left;">
@@ -36,18 +38,26 @@
         <tbody>
             @foreach (var item in Model)
             {
-                var statusColor = item.Status == "Tampered" ? "red" : "green";
+                // 1. Updated color logic: Red for Tampered, Grey for Removed, Green for Active
+                var statusColor = item.Status == "Tampered" ? "red" :
+                item.Status == "Removed" ? "#6c757d" : "green";
 
-                <tr>
+                // Optional: Make the whole row look faded if it's removed
+                var rowOpacity = item.Status == "Removed" ? "0.5" : "1.0";
+
+                <tr style="opacity: @rowOpacity;">
                     <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">@item.AssetId</td>
                     <td style="padding: 10px; border: 1px solid #ddd;">@item.Category</td>
                     <td style="padding: 10px; border: 1px solid #ddd;">@item.Specifications</td>
                     <td style="padding: 10px; border: 1px solid #ddd;">@item.SerialNumber</td>
                     <td style="padding: 10px; border: 1px solid #ddd; color: @statusColor; font-weight: bold;">@item.Status</td>
+
                     <td style="padding: 10px; border: 1px solid #ddd;">
+                        <a href="/Admin/EditAsset/@item.AssetId" style="color: #ff9900; text-decoration: none; font-weight: bold; margin-right: 10px;">Edit</a>
                         <a href="/Admin/GenerateQR?assetId=@item.AssetId" style="color: #007bff; text-decoration: none;">Print QR</a>
 
-                        @if (item.Status == "Tampered")
+                        <!-- 2. Show the Restore button for BOTH Tampered and Removed assets -->
+                        @if (item.Status == "Tampered" || item.Status == "Removed")
                         {
                             <span style="margin: 0 5px;">|</span>
                             <a href="/Admin/RestoreAsset?id=@item.AssetId" style="color: #28a745; text-decoration: none; font-weight: bold;">Restore Status</a>
