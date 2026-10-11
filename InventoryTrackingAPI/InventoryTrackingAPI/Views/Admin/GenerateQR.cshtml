@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Generate Asset Tag";
+}
+
+<div style="font-family: sans-serif; padding: 20px;">
+
+    <!-- UNIVERSAL NAVIGATION MENU -->
+    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px;">
+        <a href="/Admin/Dashboard" style="text-decoration: none; font-weight: bold; color: #333;">📊 Audit Logs</a>
+        <a href="/Admin/Inventory" style="text-decoration: none; font-weight: bold; color: #333;">📦 Master Inventory</a>
+        <a href="/Admin/AddAsset" style="text-decoration: none; font-weight: bold; color: #333;">+ Register New Asset</a>
+        <a href="/Admin/RegisterUser" style="text-decoration: none; font-weight: bold; color: #333;">👤 Add User</a>
+        <a href="/Admin/UserDirectory" style="text-decoration: none; font-weight: bold; color: #007bff;">👥 User Directory</a>
+        <!-- THE WELCOME MESSAGE -->
+        <span style="margin-left: auto; font-style: italic; color: #555;">Welcome, @User.Identity?.Name!</span>
+        <a href="/Admin/Logout" style="color: red; margin-left: auto; text-decoration: none; font-weight: bold;">Logout</a>
+    </div>
+
+    <h2>Generate New UTHM Asset Tag</h2>
+
+    <form method="get" action="/Admin/GenerateQR">
+        <div style="margin-bottom: 15px;">
+            <label>Enter Asset ID Number (e.g., 2, 3, 4):</label><br />
+            <input type="number" name="assetId" value="@ViewBag.AssetId" required style="padding: 5px; width: 200px;" />
+        </div>
+        <button type="submit" style="padding: 8px 15px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">
+            Generate QR Code
+        </button>
+    </form>
+
+    <hr style="margin: 30px 0;" />
+
+    @if (ViewBag.QRCodeBase64 != null)
+    {
+        <h3>Preview:</h3>
+        <img src="data:image/png;base64,@ViewBag.QRCodeBase64" alt="Asset QR Code" style="width:250px; height:250px; border: 1px solid #ccc;" />
+        <br />
+
+        <br />
+        <a href="data:image/png;base64,@ViewBag.QRCodeBase64" download="UTHM_Asset_@(ViewBag.AssetId).png"
+           style="padding: 8px 15px; background-color: #28a745; color: white; text-decoration: none; border-radius: 4px;">
+            Download Tag for Printing
+        </a>
+    }
+</div>

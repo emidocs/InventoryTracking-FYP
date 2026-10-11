@@ -1,0 +1,60 @@
+﻿@model IEnumerable<InventoryTrackingAPI.Models.AuditLog>
+@{
+    ViewData["Title"] = "Security Dashboard";
+}
+
+<div style="font-family: sans-serif; padding: 20px;">
+
+    <!-- UNIVERSAL NAVIGATION MENU -->
+    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px;">
+        <a href="/Admin/Dashboard" style="text-decoration: none; font-weight: bold; color: #333;">📊 Audit Logs</a>
+        <a href="/Admin/Inventory" style="text-decoration: none; font-weight: bold; color: #333;">📦 Master Inventory</a>
+        <a href="/Admin/AddAsset" style="text-decoration: none; font-weight: bold; color: #333;">+ Register New Asset</a>
+        <a href="/Admin/RegisterUser" style="text-decoration: none; font-weight: bold; color: #333;">👤 Add User</a>
+        <a href="/Admin/UserDirectory" style="text-decoration: none; font-weight: bold; color: #007bff;">👥 User Directory</a>
+        <!-- THE WELCOME MESSAGE -->
+        <span style="margin-left: auto; font-style: italic; color: #555;">Welcome, @User.Identity?.Name!</span>
+        <a href="/Admin/Logout" style="color: red; margin-left: auto; text-decoration: none; font-weight: bold;">Logout</a>
+    </div>
+
+    <h2>Real-Time Security Audit Logs</h2>
+
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px; text-align: left;">
+        <thead>
+            <tr style="background-color: #333; color: white;">
+                <th style="padding: 12px; border: 1px solid #ddd;">Date/Time</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Asset ID</th>
+                <!-- NEW COLUMN -->
+                <th style="padding: 12px; border: 1px solid #ddd;">Hardware Details</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Scanned By</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var log in Model)
+            {
+                var isTampered = log.Result != null && (log.Result.Contains("Mismatch") || log.Result.Contains("flagged"));
+                var rowColor = isTampered ? "#ffe6e6" : "#ffffff";
+                var statusColor = isTampered ? "red" : "green";
+
+                // Lookup the asset details using the Dictionary we passed in the ViewBag
+                var assetDirectory = ViewBag.AssetDirectory as Dictionary<int, InventoryTrackingAPI.Models.Asset>;
+                var asset = assetDirectory != null && assetDirectory.ContainsKey(log.AssetId) ? assetDirectory[log.AssetId] : null;
+                var hardwareDetails = asset != null ? $"{asset.Category} - {asset.Specifications}" : "Unknown Asset";
+
+                <tr style="background-color: @rowColor;">
+                    <td style="padding: 10px; border: 1px solid #ddd;">@log.ScanTimestamp</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">#@log.AssetId</td>
+
+                    <!-- DISPLAY THE HARDWARE DETAILS HERE -->
+                    <td style="padding: 10px; border: 1px solid #ddd;">@hardwareDetails</td>
+
+                    <td style="padding: 10px; border: 1px solid #ddd;">User @log.ScannedBy</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: @statusColor;">
+                        @log.Result
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

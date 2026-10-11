@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Register New Asset";
+}
+
+<div style="font-family: sans-serif; padding: 20px; max-width: 600px;">
+
+    <!-- UNIVERSAL NAVIGATION MENU -->
+    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px;">
+        <a href="/Admin/Dashboard" style="text-decoration: none; font-weight: bold; color: #333;">📊 Audit Logs</a>
+        <a href="/Admin/Inventory" style="text-decoration: none; font-weight: bold; color: #333;">📦 Master Inventory</a>
+        <a href="/Admin/AddAsset" style="text-decoration: none; font-weight: bold; color: #333;">+ Register New Asset</a>
+        <a href="/Admin/RegisterUser" style="text-decoration: none; font-weight: bold; color: #333;">👤 Add User</a>
+        <a href="/Admin/UserDirectory" style="text-decoration: none; font-weight: bold; color: #007bff;">👥 User Directory</a>
+        <!-- THE WELCOME MESSAGE -->
+        <span style="margin-left: auto; font-style: italic; color: #555;">Welcome, @User.Identity?.Name!</span>
+        <a href="/Admin/Logout" style="color: red; margin-left: auto; text-decoration: none; font-weight: bold;">Logout</a>
+    </div>
+
+    <h2>Register New Hardware Asset</h2>
+    <p>Enter the component details below. A QR tag will be generated upon saving.</p>
+
+    <form method="post" action="/Admin/AddAsset" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+
+        <div>
+            <label style="font-weight: bold;">Category (e.g., RAM, GPU, Monitor):</label><br />
+            <input type="text" name="category" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+
+        <div>
+            <label style="font-weight: bold;">Manufacturer Serial Number (Barcode):</label><br />
+            <input type="text" name="serialNumber" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+
+        <div>
+            <label style="font-weight: bold;">Hardware Specifications:</label><br />
+            <textarea name="specifications" rows="3" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+        </div>
+
+        <!-- NEW FIELD: Location ID -->
+        <div>
+            <label style="font-weight: bold;">Location ID (e.g., 1 for Server Room):</label><br />
+            <input type="number" name="locationId" value="1" required style="padding: 8px; width: 100%; border: 1px solid #ccc; border-radius: 4px;" />
+        </div>
+
+        <button type="submit" style="padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; margin-top: 10px;">
+            Register Asset & Generate Tag
+        </button>
+    </form>
+</div>

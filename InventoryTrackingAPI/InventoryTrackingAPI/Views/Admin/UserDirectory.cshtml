@@ -1,0 +1,63 @@
+﻿@model IEnumerable<InventoryTrackingAPI.Models.User>
+@{
+    ViewData["Title"] = "User Directory";
+}
+
+<div style="font-family: sans-serif; padding: 20px;">
+
+    <!-- UNIVERSAL NAVIGATION MENU -->
+    <div style="margin-bottom: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; display: flex; gap: 15px;">
+        <a href="/Admin/Dashboard" style="text-decoration: none; font-weight: bold; color: #333;">📊 Audit Logs</a>
+        <a href="/Admin/Inventory" style="text-decoration: none; font-weight: bold; color: #333;">📦 Master Inventory</a>
+        <a href="/Admin/AddAsset" style="text-decoration: none; font-weight: bold; color: #333;">+ Register New Asset</a>
+        <a href="/Admin/RegisterUser" style="text-decoration: none; font-weight: bold; color: #333;">👤 Add User</a>
+        <a href="/Admin/UserDirectory" style="text-decoration: none; font-weight: bold; color: #007bff;">👥 User Directory</a>
+        <!-- THE WELCOME MESSAGE -->
+        <span style="margin-left: auto; font-style: italic; color: #555;">Welcome, @User.Identity?.Name!</span>
+        <a href="/Admin/Logout" style="color: red; margin-left: auto; text-decoration: none; font-weight: bold;">Logout</a>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h2>System User Directory</h2>
+        <a href="/Admin/RegisterUser" style="padding: 8px 15px; background-color: #28a745; color: white; text-decoration: none; border-radius: 4px;">+ Add New User</a>
+    </div>
+
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px; text-align: left;">
+        <thead>
+            <tr style="background-color: #343a40; color: white;">
+                <th style="padding: 12px; border: 1px solid #ddd;">User ID</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Username</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">System Role</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Account Status</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                var statusColor = user.IsActive ? "green" : "red";
+                var statusText = user.IsActive ? "Active" : "Revoked";
+                var actionText = user.IsActive ? "Revoke Access" : "Restore Access";
+                var actionColor = user.IsActive ? "red" : "#28a745";
+                var currentLoggedInUser = User.Identity?.Name;
+
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">@user.UserId</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">@user.Username</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">@user.Role</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; color: @statusColor; font-weight: bold;">@statusText</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">
+                        @if (user.Username == currentLoggedInUser)
+                        {
+                            <span style="color: gray; font-style: italic;">Cannot modify self</span>
+                        }
+                        else
+                        {
+                            <a href="/Admin/ToggleUserStatus?id=@user.UserId" style="color: @actionColor; text-decoration: none; font-weight: bold;">@actionText</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
